@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <h3>Carousel with caption</h3>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button"
+          class="active"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+        ></button>
+        <button type="button"
+          class="active"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="ahm.jpg" height="300px" width="100%" />
+          <div class="carousel-caption">
+            <h3>AHMEDABAD</h3>
+            <p>We had such a great time at historical places</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="gnr.jpg" height="300px" width="100%" />
+          <div class="carousel-caption">
+            <h3>Gandhinagar</h3>
+            <p>AKSHARDHAM TEMPLE</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </body>
+</html>
